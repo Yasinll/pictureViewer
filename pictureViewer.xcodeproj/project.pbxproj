@@ -13,6 +13,13 @@
 		CD870B881FC2ACCA0010E87C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD870B871FC2ACCA0010E87C /* Assets.xcassets */; };
 		CD870B8B1FC2ACCA0010E87C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD870B891FC2ACCA0010E87C /* LaunchScreen.storyboard */; };
 		CD870B8E1FC2ACCA0010E87C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD870B8D1FC2ACCA0010E87C /* main.m */; };
+		CD870B991FC2AEC70010E87C /* 04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD870B951FC2AEC60010E87C /* 04.jpg */; };
+		CD870B9A1FC2AEC70010E87C /* 01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD870B961FC2AEC60010E87C /* 01.jpg */; };
+		CD870B9B1FC2AEC70010E87C /* 03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD870B971FC2AEC70010E87C /* 03.jpg */; };
+		CD870B9C1FC2AEC70010E87C /* 02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD870B981FC2AEC70010E87C /* 02.jpg */; };
+		CD870BA71FC2BF860010E87C /* PATLoopview.m in Sources */ = {isa = PBXBuildFile; fileRef = CD870BA61FC2BF860010E87C /* PATLoopview.m */; };
+		CD870BAA1FC2D0680010E87C /* PATLoopViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CD870BA91FC2D0680010E87C /* PATLoopViewLayout.m */; };
+		CD870BB01FC2D49B0010E87C /* PATLoopViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD870BAF1FC2D49B0010E87C /* PATLoopViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,16 @@
 		CD870B8A1FC2ACCA0010E87C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD870B8C1FC2ACCA0010E87C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD870B8D1FC2ACCA0010E87C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD870B951FC2AEC60010E87C /* 04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 04.jpg; sourceTree = SOURCE_ROOT; };
+		CD870B961FC2AEC60010E87C /* 01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 01.jpg; sourceTree = SOURCE_ROOT; };
+		CD870B971FC2AEC70010E87C /* 03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 03.jpg; sourceTree = SOURCE_ROOT; };
+		CD870B981FC2AEC70010E87C /* 02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 02.jpg; sourceTree = SOURCE_ROOT; };
+		CD870BA51FC2BF860010E87C /* PATLoopview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PATLoopview.h; sourceTree = "<group>"; };
+		CD870BA61FC2BF860010E87C /* PATLoopview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PATLoopview.m; sourceTree = "<group>"; };
+		CD870BA81FC2D0680010E87C /* PATLoopViewLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PATLoopViewLayout.h; sourceTree = "<group>"; };
+		CD870BA91FC2D0680010E87C /* PATLoopViewLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PATLoopViewLayout.m; sourceTree = "<group>"; };
+		CD870BAE1FC2D49B0010E87C /* PATLoopViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PATLoopViewCell.h; sourceTree = "<group>"; };
+		CD870BAF1FC2D49B0010E87C /* PATLoopViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PATLoopViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +75,12 @@
 		CD870B7D1FC2ACCA0010E87C /* pictureViewer */ = {
 			isa = PBXGroup;
 			children = (
+				CD870BA11FC2BEDC0010E87C /* loopView */,
 				CD870B7E1FC2ACCA0010E87C /* AppDelegate.h */,
 				CD870B7F1FC2ACCA0010E87C /* AppDelegate.m */,
 				CD870B811FC2ACCA0010E87C /* ViewController.h */,
 				CD870B821FC2ACCA0010E87C /* ViewController.m */,
+				CD870B941FC2AE710010E87C /* images */,
 				CD870B841FC2ACCA0010E87C /* Main.storyboard */,
 				CD870B871FC2ACCA0010E87C /* Assets.xcassets */,
 				CD870B891FC2ACCA0010E87C /* LaunchScreen.storyboard */,
@@ -70,6 +89,30 @@
 			);
 			path = pictureViewer;
 			sourceTree = "<group>";
+		};
+		CD870B941FC2AE710010E87C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CD870B961FC2AEC60010E87C /* 01.jpg */,
+				CD870B981FC2AEC70010E87C /* 02.jpg */,
+				CD870B971FC2AEC70010E87C /* 03.jpg */,
+				CD870B951FC2AEC60010E87C /* 04.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		CD870BA11FC2BEDC0010E87C /* loopView */ = {
+			isa = PBXGroup;
+			children = (
+				CD870BA51FC2BF860010E87C /* PATLoopview.h */,
+				CD870BA61FC2BF860010E87C /* PATLoopview.m */,
+				CD870BA81FC2D0680010E87C /* PATLoopViewLayout.h */,
+				CD870BA91FC2D0680010E87C /* PATLoopViewLayout.m */,
+				CD870BAE1FC2D49B0010E87C /* PATLoopViewCell.h */,
+				CD870BAF1FC2D49B0010E87C /* PATLoopViewCell.m */,
+			);
+			path = loopView;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -129,7 +172,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD870B9B1FC2AEC70010E87C /* 03.jpg in Resources */,
+				CD870B9A1FC2AEC70010E87C /* 01.jpg in Resources */,
 				CD870B8B1FC2ACCA0010E87C /* LaunchScreen.storyboard in Resources */,
+				CD870B9C1FC2AEC70010E87C /* 02.jpg in Resources */,
+				CD870B991FC2AEC70010E87C /* 04.jpg in Resources */,
 				CD870B881FC2ACCA0010E87C /* Assets.xcassets in Resources */,
 				CD870B861FC2ACCA0010E87C /* Main.storyboard in Resources */,
 			);
@@ -144,6 +191,9 @@
 			files = (
 				CD870B831FC2ACCA0010E87C /* ViewController.m in Sources */,
 				CD870B8E1FC2ACCA0010E87C /* main.m in Sources */,
+				CD870BB01FC2D49B0010E87C /* PATLoopViewCell.m in Sources */,
+				CD870BAA1FC2D0680010E87C /* PATLoopViewLayout.m in Sources */,
+				CD870BA71FC2BF860010E87C /* PATLoopview.m in Sources */,
 				CD870B801FC2ACCA0010E87C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +331,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5C23J56UD3;
 				INFOPLIST_FILE = pictureViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.py.pictureViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,6 +346,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5C23J56UD3;
 				INFOPLIST_FILE = pictureViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.py.pictureViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
